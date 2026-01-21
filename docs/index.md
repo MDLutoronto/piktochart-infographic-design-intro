@@ -1,13 +1,210 @@
 ---
-title: Home   # Title of the page, which will be displayed in the navigation and the browser title.
-layout: page  # Layout type, usually 'page' for standard pages.
-nav_order: 1  # Order in the navigation menu.
-description:  # A brief description of the page for SEO purposes.
-permalink: /  # Optional: Custom URL for the page. It will serve as the slug. For example, /home/
-created_date:  # Date when the page was created. Should be in YYYY-MM-DD format.
-has_children: False  # Set to True if the page has sub-pages.
+title: "Introduction to Infographic Design and Using Piktochart"
+layout: "home"
+description: ""
+permalink: "/"  #! Remove this if not the homepage
 ---
 
-# Just the docs template
+# Introduction to Infographic Design and Using Piktochart
 
-See the <a href="https://mdlutoronto.github.io/jtd-edit-setup/docs/create-new-guide/" target="_blank"> Create a New Guide</a> page to get started with creating your own guide!
+This tutorial is an introduction to Piktochart, a popular online tool used to create infographics. This exercise will illustrate some infographic design principles and specific features of Piktochart to create an infographic about comparing housing in Vancouver vs Toronto. To complement this tutorial, you may want to explore the [online self\-paced course on Infographic Design](https://q.utoronto.ca/enroll/JXN4XL).
+
+**UPDATE: Piktochart is now only offering free accounts for 7\-days to try out the tool. Also, throughout the tutorial, the screenshot may no longer match the tool exactly, as the tool continues to change online, but the steps generally remain the same.**
+
+1. To begin, go to the Piktochart website: ([www.piktochart.com](http://www.piktochart.com)). Click on the **sign up button** on the top right. Note that at this point you can choose to create an account or sign in through an existing Gmail/ Facebook account.  
+  
+<img src='{{ '/assets/images/Piktochart_001.1.png' | relative_url }}' alt='Piktochart home page.' title='' width='751' height='322' />
+2. If creating an account, fill in your name, email and choose a password. Then click **create account**. Piktochart should send you a confirmation email. Once you receive that email, just click on the **Confirm email**button. This link should take you to the log in screen where you can then log in. When you first set up an account, you may be asked a few questions about yourself. Having logged in, you should end up in your account dashboard screen (yours is likely to be fairly empty).  
+  
+<img src='{{ '/assets/images/Piktochart_001.2.png' | relative_url }}' alt='Image showing PIktochart's landing page.' title='' width='480' height='392' />
+3. Before we start working with Piktochart, we need to gather our data, come up with our story, and design our infographic. First let's look at the data. [Download the TutorialFiles.zip file](https://maps.library.utoronto.ca/workshops/IntrotoInfographics/TutorialFiles.zip). You will need to unzip/extract the file using a [tool like 7\-zip](http://www.7-zip.org/). \- normally by right clicking on the file and selecting **extract or unzip** from the menu. The result should be a number of files that will be referred to throughout this tutorial. In particular, you should see 3 Excel files – let’s check out CensusProfile.csv first. This is census profile data from the 2016 census for the cities of Toronto and Vancouver.  
+  
+<img src='{{ '/assets/images/Piktochart_002.jpg' | relative_url }}' alt='In the workshop files folder, CensusProfile.csv is highlighted.' title='' width='483' height='68' />
+4. From this file, you can see that there is information about how many people fall into many different demographic categories, based on how they answered particular questions in the census. You can see that these answers are categorized by general topic. Most questions start with a “total” that describes the question and then the indented information are the subcategories that people fall under. You can see, for example, that starting at row 43 there’s data on what type of housing people live in, with different categories such as single\-detached house or apartment. You can see that 269,675 people in Toronto and 41,330 people in Vancouver live in single\-detached houses. That will be useful.  
+  
+<img src='{{ '/assets/images/Piktochart_003.1.png' | relative_url }}' alt='CensusProfile.csv with Household and dwelling characteristics for total and single-detached highlighted.' title='' width='1200' height='255' />  
+  
+Further in the file (around row 1619\), there is more data on household characteristics, such as home type (condo vs non\-condo).  
+  
+<img src='{{ '/assets/images/Piktochart_003.2.png' | relative_url }}' alt='CensusProfile.csv with Household characteristics total, condominium, and not condominium highlighted.' title='' width='1200' height='273' />  
+  
+And median value of a home, as estimated by the resident. There's a big story there \- median values for Vancouver are much higher when compared to Toronto! So that will be the climax of our story.  
+  
+<img src='{{ '/assets/images/Piktochart_003.3.png' | relative_url }}' alt='CensusProfile.csv with Household characteristics median value of dwellings, and average value of dwellings highlighted.' title='' width='1200' height='495' />
+5. Going back to the condo/non\-condo question information, it might also be useful to describe the housing mix in both cities \- condos vs houses (i.e., single\-detached houses). Not what is available, but where people live.  
+  
+I have separated some of the relevant housing\-related census data into two new excel files called TorontoHousingMix.xls and VancouverHousingMix.xls and calculated the percentages. Let’s take a look at those files. Based on a quick visual scan, I can see that Toronto has a pretty even mix of housing types, but for Vancouver there’s a higher percentage of people living in condos vs. houses. These two data files will also be used in our infographic.  
+  
+*Note: Normally, I would make comparisons of categories within the same question, but I feel pretty safe in my assumption that single\-detached houses are not condos, so there's no overlap, and I can make these comparisons.*  
+  
+So let's go with using the data on the number of people living in single\-detached houses vs condos, as well as the median value of dwellings in our infographic as some ways to compare the cities' housing landscape. We'll also include some context at the beginning of the infographic to set the stage for the story, so including information on population and location within Canada.  
+  
+*Note: This is a simplified example of finding a story in the data. We could have used different variables in this census profile (there are many) or other datasets, such as real estate prices and availability, for example, to tell our story in this infographic.*  
+  
+<img src='{{ '/assets/images/Piktochart_004.jpg' | relative_url }}' alt='Image of Excel sheets that have data about housing in Vancouver and Toronto.' title='' width='457' height='278' />
+6. The next step in the process is to sketch out the layout of the infographic (with paper and pen works well). The overall design that we'll do for this one (which you'll see as it develops), will be to start with a big, bold title setting up our question \- "Where Should You Buy Your Home?" The subtitle sets up the comparison \- "Vancouver vs Toronto." Then the infographic will have 4 pages/sections after the titles.  
+  
+The first block will set the stage \- providing context by showing a map with the two locations, and some info on their populations. The second block will have a subheading asking if they prefer condos vs houses, followed by some explanatory text and some bar graphs to display the data on the housing mix info we calculated earlier. The third block will have a subheading and text discussing cost, and then display a comparison of the median values using special text treatments to make them stand out. The final block will have a conclusion with where they can go for more information, plus sources and footnotes at the bottom.  
+  
+<img src='{{ '/assets/images/Piktochart_005.png' | relative_url }}' alt='A sketch of infographic: including title, subtitle, and the 4 bocks/sections.' title='' width='583' height='835' />
+7. Next, we need to decide what fonts and colours to use in our design. Let's start with fonts. The first resource I’m going to use is an [article on how to choose fonts](https://venngage.com/blog/how-to-choose-fonts/) as there are example font pairings. As we're just looking for a maximum of 2\-3 fonts, font pairings work well. Browsing the article’s suggestions, let's go with the final pairing – Poppins for the title and subheadings, and Roboto Condensed for the body. To keep track of these font choices, we can add notes to our design sketch.  
+  
+<img src='{{ '/assets/images/Piktochart_006.png' | relative_url }}' alt='Example showing how the Poppins text font will look at 54 pt and 16 pt.' title='' width='499' height='232' />
+8. Next I need to decide on font sizes and how use these to create the text hierarchy. For this, I’m going to use a [website called Modular Scale](https://www.modularscale.com/?12&pt&1.5). For this tool, we need to first decide on the size of our body text. The font pairing suggested 16pt, which works well with the accessibility advice of using between sizes 14 and 18pts for on screen body text. So let's go to the Modular Scale tool and put in 16pt as the base. It then displays appropriate larger and smaller sizes from that point to use for headings.  
+  
+We want our title to be large and fill the top of our infographic, so I’m going to go with 81pt and make it bold. For the main subheading, we can take the next step down and select 54 and not bold. For the rest of our subheading questions, we can take another step down to 36pt. We finally then end up at our body text. As we don’t have large chunks of text, we might be okay to take it up a step to 24pt. We’ll give it a try and see how it looks. We'll use a slightly larger font for the special text treatment on the median values, maybe 40pt and bold, and a slightly smaller size for the sources and footnotes, maybe 14 or 16pt.  
+  
+<img src='{{ '/assets/images/Piktochart_007.jpg' | relative_url }}' alt='Image of the Modular Scale website with several font sizes displayed and highlighted.' title='' width='769' height='484' />
+9. Finally, our last major design decision will be colour. Common design advice is to use 2\-3 main colours at most. We will use [ColourLovers](https://www.colourlovers.com)to choose some nice colour palettes. From [ColourLovers’ palette page](http://www.colourlovers.com/palettes), which may be filled with advertisements, select **most loved** to find some options that might be appropriate.  
+  
+<img src='{{ '/assets/images/Piktochart_008.jpg' | relative_url }}' alt='ColourLovers home page with most loved highlighted.' title='' width='648' height='385' />
+10. The colour options in the palette, **Ocean Five,** look like they might be a good fit. Let's click on its title. The Blue and Orange would be good contrasting (complementary) colours (to represent Vancouver vs Toronto information), and the brown in this palette is a nice, neutral colour for text. So let’s click on it to get more information.  
+  
+<img src='{{ '/assets/images/Piktochart_009.jpg' | relative_url }}' alt='Image showing the Ocean Five palette.' title='' width='594' height='93' />
+11. One thing we would want to check is that this how well this palette works for people who may be colour blind. You can download the palette as an image by going to the left under palette image, and clicking on one of the sizes – let’s pick **800x600**.  
+  
+<img src='{{ '/assets/images/Piktochart_010.1.jpg' | relative_url }}' alt='More details about Ocean Five palette.' title='' width='572' height='356' />
+
+    Then go to [Coblis, a Color Blindness Simulator](http://www.color-blindness.com/coblis-color-blindness-simulator/)*.* We can drag and drop this palette image that we just downloaded. Now if we try out the different settings, keeping an eye on the blue and orange, we see that differences can still be perceived, which is great. Let's depict information about Vancouver with blue and use orange for Toronto.
+
+    <img src='{{ '/assets/images/Piktochart_010.2.jpg' | relative_url }}' alt='The palette as it would be perceived by people who see colour differently.' title='' width='798' height='278' />
+12. Our design is ready to implement in Piktochart now. Let’s return to the dashboard screen, where we left off. We’re going to create a new **infographic.**The first two screenshots below demonstrate the multiple ways you can start building an infographic in Piktochart. You can select **Infographics**within the**Piktochart Visual**pane, or click**Create New**\>**Infographics.**As you can see there are a number of free templates you can use, if you wish. We are designing our infographic from scratch, so hover over the **Start from blank**option and click on the **Use Blank Template** button to get started.  
+  
+<img src='{{ '/assets/images/Piktochart_011.1.png' | relative_url }}' alt='Piktochart's workspace starting page with the Infographics selection highlighted by a red box.' title='' width='806' height='341' />
+
+    <img src='{{ '/assets/images/Piktochart_011.2.png' | relative_url }}' alt='The Infographics selection in Piktochart's Create New menu highlighted.' title='' width='497' height='392' />
+
+    <img src='{{ '/assets/images/Piktochart_011.3.png' | relative_url }}' alt='Highlighting the Infographics selection in Piktochart's Formats menu.' title='' width='847' height='489' />
+13. At the top of the webpage, you can click on where it says "It's a blank template" to give your infographic a name – let’s call ours “Housing – Vancouver vs Toronto”. As you can see, Piktochart autosaves periodically, which is great. But you can also force it to save anytime by clicking on the **Save** button at the top. It is important to save frequently when working in browser tools. Next to the save button are undo and redo buttons, should you make any mistakes along the way. Next is a share button (which we will look at later), a comment button (great for collaboration), a download button to download it as an image (we’ll use this later), and a preview button (for testing how it looks). Piktochart has also recently added a record button between the download and preview buttons to present your infographic and record it.  
+  
+<img src='{{ '/assets/images/Piktochart_012.png' | relative_url }}' alt='Uppermost toolbar in Piktochart where you can name and save your infographic.' title='' width='829' height='74' />
+14. Using Piktochart’s Infographic tool, we’re going to start building our infographic in section or as Piktochart calls them \- pages (which works well if we want to present it later in presentation mode). To the right of your blank infographic, click the "Resize Page" icon. Input a height range of 400px. Click anywhere on your blank infographic to clear the dialog window.  
+  
+<img src='{{ '/assets/images/Piktochart_013.png' | relative_url }}' alt='Page Size dialog window in Piktochart, showing a 800x400px range in a portrait orientation with "Resize Content" checked.' title='' width='525' height='479' />
+15. Let’s add our title. I’ve provided all of the text for this infographic in a word document called "TextForInfographicActivity.docx" in your data download package. If you open it up, you can then copy/paste the text into Piktochart to save time and make sure we’re using the same text throughout this tutorial. First, let’s click on the **Text** icon from the left menu and then click on **Title**. Double click on it to edit it and then press the **CTRL key** and the **letter A key** at the same time to select all the text to replace it. Copy/paste our title from the word document (item 1\) – delete the “1\)” if it also copies over. Let's also center it. Click on the Title text box to select it (should be outlined in blue). Then go to the menu bar just above the infographic and to the right of the underline icon, is the text alignment icon. Select the centered alignment to center our title (second from the left).  
+  
+<img src='{{ '/assets/images/Piktochart_014.1.png' | relative_url }}' alt='The text tab open with Title highlighted.' title='' width='724' height='282' />
+
+    <img src='{{ '/assets/images/Piktochart_014.2.png' | relative_url }}' alt='The title text selected and the alignment set to center.' title='' width='722' height='339' />
+16. Click on the Title text box to select it and then pick **Poppins** for the font, type in**81** for the font sizeand press Enter, and select the**bold** icon. Then go to the **colour** box to select our colour – we need to add our brown from the colour palette to use for our text. Go to our colour lovers palette and copy/paste the hex value.  
+  
+In the Piktochart colour selector, replace the numbers before the number sign with the hex value for our brown colour. You can press Enter or click anywhere else on the page to confirm the change in colour. Once you copy in the number for the colour, the title should now be that shade of brown. Also, that colour will now be found in our recent colours, so we don’t have to add the number every time we want to use that colour. Just click away to close the window.  
+  
+<img src='{{ '/assets/images/Piktochart_015.1.png' | relative_url }}' alt='Change the colour of the text "Where Should You Buy Your Home?" with a brown-shaded colour (#6A4A3C) selected.' title='' width='721' height='442' />  
+<img src='{{ '/assets/images/Piktochart_015.2.png' | relative_url }}' alt='The chosen colour palette, with the hex number for brown highlighted.' title='' width='508' height='533' />
+17. Our title box is a bit big, so resize it, expanding the edges so that the title is on two lines. Manually put it near the top, with a bit of space as a buffer, then click on **Position** near the top right. Under **Align to Page**, click on **Center**to center it horizontally. Click anywhere to exit the dialog box. Our title is done. Great!  
+  
+<img src='{{ '/assets/images/Piktochart_016.png' | relative_url }}' alt='An image indicating where to find the Position dialog box in the upper right corner. The option "Center" is selected.' title='' width='805' height='495' />
+18. In a similar way, let’s add the subtitle below the title. Click on the **Text** icon from the left menu, and then on **Header**. Let’s move it down so we can see what we’re working with. Double click on the text box, select all the text, and then copy/paste the subtitle from our word document (item \#2\). Remove any numbering that might come up. Again, let’s apply our font and colour specifications. First, click on the text box to select it, pick **Poppins** and change the font size to**54**.  
+  
+For the colours, we’re going to use the blue (\#00A0B0\) and orange (\#EB6841\) to contrast these two cities. So it would be good to put their names in these colours to link the colour to the city, using the subtitle as a legend. Highlight Vancouver, click the colour icon, then copy/paste the blue hex value in to change the text to blue. Repeat this process for Toronto, but with the orange colour, and make "vs" brown. Now resize the subtitle, pulling the edges to the edge of the infographic board and centering it below the title with some white space. When adjusting the text box, a blue line should appear indicating when it has been centered or you can use the **Position** option.  
+  
+<img src='{{ '/assets/images/Piktochart_017.png' | relative_url }}' alt='The text colour option opened, located on the left side of the upper toolbar in Piktochart.' title='' width='683' height='280' />
+19. Let’s add a horizontal line to separate our sections. Click on the**Graphics** icon from the left menu, and then under**Basic Shapes and Lines**, select the lines icon. Position it below your subtitle and expand it to the edges of your subtitle. For our infographic, we want a dashed line. With the line selected, change the line style from**Solid**to**Dashed**in the drop\-down menu to the right of the colour style. Click on the colour style and select the brown from the palette we chose.  
+  
+<img src='{{ '/assets/images/Piktochart_018.png' | relative_url }}' alt='The Basic Shapes and Lines section of Piktochart's Graphics pane with the Dashed line style selected.' title='' width='679' height='273' />
+20. Finally, let’s add a neutral background to our infographic. Without any text selected, click on**Background \& Pattern**in the toolbar above the infographic. You can select from solid colours or patterned backgrounds. For our infographic, I've chosen a neutral, tan\-coloured option with a subtle grid background. You can find this by scrolling roughly two\-thirds of the way down the **Background Patterns**section. It's located in the far\-most right column, past the polka dots but before some wood paneling. It is neutral, but with a bit of a graph paper texture to it. I think it goes nicely with the brown text and provides a good colour contrast for readability. Pick this if you'd like, or another background of your choice. Every page we now add will have the same background by default.  
+  
+<img src='{{ '/assets/images/Piktochart_019.png' | relative_url }}' alt='An image of the Background & Pattern menu of Piktochart with a tan-coloured graphed background selected.' title='' width='569' height='515' />
+21. Next, we're going to add a new page for the next section of our infographic. But first, let’s pull up the grey bar to just under our line to make our first section compact. Then add a new page by clicking the**Add Page** icon to the right of the infographic, or by clicking the**\+**(plus) symbol in the outline pane to the right.  
+  
+<img src='{{ '/assets/images/Piktochart_020.png' | relative_url }}' alt='A screenshot highlighting the Add Page function.' title='' width='689' height='332' />
+22. Next we’re going to add a bit of context for these two locations. Let’s start with a text box for each city with their province and population. Add a text box, as we did before, but pick body text. Copy/paste the text from item 3 in the word document into the box (make sure there is a new line before "Population" and no leading numbers).  
+  
+Then let’s apply our font and colour rules here. We’ll use **Roboto Condensed** here and **24pt**, and the brown colour. (Note: If you change the font by searching for the font name, Piktochart may sometimes glitch and display another font instead. If this happens, please manually scroll down the list of fonts to find the font you are looking for.)  
+  
+We are then going to left\-justify it (and for Toronto’s box we’ll right\-justify it) to create a visual contrast of comparing two items side by side. After setting up the box for Vancouver, copy/paste the entire box and then modify the text by copy/pasting in the Toronto info (right click and paste as plain text or for a short\-cut, use **CTRL** \+ **SHIFT** \+ **V**). But this time right justify it. This is a quick way to use the same font size and colour for similar text boxes – we will do this again later on. Make sure each text box is only two lines. Leave the boxes off to each side for now.  
+  
+<img src='{{ '/assets/images/Piktochart_021.1.png' | relative_url }}' alt='The full infographic with text options highlighted.' title='' width='591' height='436' />
+
+    <img src='{{ '/assets/images/Piktochart_021.2.png' | relative_url }}' alt='Full infographic with the Toronto text box set to right justify.' title='' width='592' height='439' />
+23. These two text boxes are ultimately going to be shown next to a map with icons pointing out where Vancouver and Toronto are. So first let’s add a map to our Infographic. Click on the**Maps**icon in the left menu. Search for and select Canada. You'll see that the default map is quite distorted with Nunavut taking up a large area of space on our infographic. Instead, let's find and upload a difference image of Canada to use. Delete the map of Canada from your infographic.  
+<img src='{{ '/assets/images/Piktochart_022.1.png' | relative_url }}' alt='The Maps tab in Piktochart, with "Canada" entered in the search bar under the Countries tab.' title='' width='418' height='410' />
+
+    <img src='{{ '/assets/images/Piktochart_022.2.png' | relative_url }}' alt='The selected map of Canada in blue displayed in the infographic, highlighting the space occupied by the distortion of Nunavut.' title='' width='598' height='372' />
+
+    One good website to go for images that have licenses allowing for reuse is [**Wikimedia Commons**](https://commons.wikimedia.org/wiki/Main_Page). On that website, search for “Canada blank map svg”. I’m searching for an SVG image – where SVG stands for Scalable Vector Graphics. These are great for icons/simple images in infographics. You can stretch them without them looking pixelated, and can easily change their colours. The second option from our Wikimedia search looks like a good map to use. You can see how the projection used here makes Canada look less vertically stretched. Click on the smaller image, you will see a pop\-up window on the right of the screen which displays information about the file. Let's click on the More Details button to see more information.
+24. Let’s check its reuse permissions. It says it is public domain so we can use it in our infographic. Okay, great, let's use it. Scroll the page down to the file history section, right click on the 5 December 2007 link, click save link as, and save it in your workshop folder.  
+  
+*Note: We are using the older version of the file as a workaround because the latest version of the SVG file is malformed and cannot be used in our infographic.*  
+  
+<img src='{{ '/assets/images/Piktochart_023.1.png' | relative_url }}' alt='Result page in Wikimedia Common' title='' width='750' height='468' />
+
+    <img src='{{ '/assets/images/Piktochart_023.2.png' | relative_url }}' alt='Brief information for the desired map with more details highlighted.' title='' width='733' height='577' />
+
+    <img src='{{ '/assets/images/Piktochart_023.3.png' | relative_url }}' alt='The version history of the map with the 2007 version ighlighted.' title='' width='721' height='333' />
+25. To use this file in Piktochart, click the **Graphics**icon in the left menu. Click the**My Uploads**tab, browse to the file, and select it. When it is finished uploading, you'll see a thumbnail of the map. Click on the image to add it to your infographic, and change the colour to be the brown from our palette.  
+  
+<img src='{{ '/assets/images/Piktochart_024.png' | relative_url }}' alt='The My Uploads tab highlighted and the upload function in Piktochart's Graphics pane. A brown-coloured map of Canada has been added to the infographic.' title='' width='608' height='420' />
+26. Let’s next resize it by pulling at the corners of the image so that we don't distort it, then centering it on our infographic. This might involve making the block a bit larger by pulling down the grey border. Resize the map so it is about a third of the width of the infographic. Drag the Population text boxes so they are nicely arranged around it. You can also make it asymmetrical for a more dynamic look.  
+  
+<img src='{{ '/assets/images/Piktochart_025.png' | relative_url }}' alt='The map of the infographic selected with the bottom corner highlighted to resize the image.' title='' width='488' height='452' />
+27. Next let’s search for a map “pin” icon we can use. With **Graphics** still selected on the left, click on the All tab to go back to the main screen for **Graphics**. In the search bar, search for "map icon." Click on the pin icon to insert it onto the infographic. Let's change the colour to blue for Vancouver. Make the graphic smaller. Place it on the map, pointing it roughly to where Vancouver is located. Copy and paste the icon, change the colour to orange for Toronto, and place it in the appropriate area on your map. If you're having trouble seeing where you're placing pins, you can use the arrow keys on your keyboard for finer movement, as well as the zoom tools on the bottom right.  
+  
+<img src='{{ '/assets/images/Piktochart_026.png' | relative_url }}' alt='Highlighting the location of the map icon in Piktochart's graphics pane. A large blue map pin has been placed on the infographic to the right of the map of Canada.' title='' width='527' height='503' />
+28. One thing to point out here is that when you’re layering images one over another, sometimes one might be blocking another. If that happens you can select one and then either bring it forward or send it back to fix it. You can do this either by right clicking on the item \>**Send to Back**or**Bring to Front,**or by clicking **Position**in the top toolbar and selecting one of the options under**Arrangement.**If you regret that decision (or anything you've done), you can always use the undo or redo buttons at the top of the screen. Finally, copy the horizontal bar separating your first two pages, then paste it into your current section to finish the second page. Make sure it is centered. Adjust any grey borders to just under the lines, if needed.  
+  
+<img src='{{ '/assets/images/Piktochart_027.1.png' | relative_url }}' alt='The blue map pin icon selected, displaying a menu which reads, in order "Cut; Copy; Send to Back; Bring to Front; Select All; Lock; Link; Delete"' title='' width='298' height='471' />
+
+    <img src='{{ '/assets/images/Piktochart_027.2.png' | relative_url }}' alt='Position menu with a red rectangle highlighting the arrangement functions.' title='' width='298' height='387' />
+
+    The final version of this section should look like this:
+
+    <img src='{{ '/assets/images/Piktochart_027.3.png' | relative_url }}' alt='Final version of the page with the Vancouver and Toronto pins.' title='' width='621' height='264' />
+29. Okay, let’s add our third section to the infographic by clicking the **Add Page** icon to the right of the infographic. Here, we will use a header to ask a question, so insert a text box for subtitle, and copy the text from item 5 (clean up if needed). Then apply the font and colour – **Poppins**, this time **36pt**, and brown. Stretch the text box to the edges and centre it. Then add another text box with our body text (item 6\) about this topic. Copy/paste in the text and again, set the font and colour, this time **Roboto Condensed**, **24pt**, brown. Stretch to make the text read on two lines, fairly even on both lines (if it isn’t working, backspace over the line break to fix it). Just to note, a blue line running through the middle of the text means that it is centred.  
+  
+<img src='{{ '/assets/images/Piktochart_028.jpg' | relative_url }}' alt='Complete infographic shown with third page in place and new text added.' title='' width='613' height='661' />
+30. Next, we will add some bar graphs that compare the condos vs. houses data. To do so, click on the**Charts**icon in the left menu. Select**Bar**in the list of available options.  
+  
+  
+<img src='{{ '/assets/images/Piktochart_029.1.png' | relative_url }}' alt='The selection of Charts available in Piktochart with a bar chart highlighted by a red square.' title='' width='326' height='535' />
+
+    After clicking on**Bar,**a table with sample data should appear in the left pane. Click**Upload File**. A dialog box will appear asking if you want to overwrite the current data. Click**Yes, Overwrite Data**. Navigate to the "VancouverHousingMix.xlsx" file, select it and click on Open.
+
+    <img src='{{ '/assets/images/Piktochart_029.2.png' | relative_url }}' alt='"Overwrite current Data" prompt with yes highlighted.' title='' width='631' height='276' />
+31. Your bar graph will be inserted onto the infographic with a preview of your dataset in the left pane. Adjust the chart's position to get a better view. With the chart selected you can change the chart type from the drop\-down menu that appears in the top toolbar. For this infographic, we're going to stick with the horizontal bar graph so that the labels are easy to read. Bar graphs are a great way to compare numeric data that is split into categories, such as the data we have now.  
+  
+<img src='{{ '/assets/images/Piktochart_030.png' | relative_url }}' alt='The preview of Vancouver's housing dataset, where Condos represent 33% of the housing mix and Houses represent 15%. The bar chart is inserted onto the infographic with a red rectangle highlighting the location of the drop-down menu. ' title='' width='654' height='456' />
+32. With the chart selected, you will see a tab for**Chart Settings**in the left pane which will allow you to adjust labels, colours, and more. Click on that. Let's begin by adjusting the bar colours to match Vancouver's. In the Colours menu, turn on**One color for all series**. Select the blue from our palette for Vancouver.  
+  
+<img src='{{ '/assets/images/Piktochart_031.1.png' | relative_url }}' alt='Chart settings with Data Colors opened and highlighted.' title='' width='304' height='568' />
+
+    We don't need a legend, so toggle that off, too. For our infographic, we're going to **turn off Axes Titles and Axes Labels**, really simplifying the graph.
+
+    <img src='{{ '/assets/images/Piktochart_031.2.png' | relative_url }}' alt='Chart settings with Axes Titles opened and highlighted.' title='' width='303' height='486' /><img src='{{ '/assets/images/Piktochart_031.3.png' | relative_url }}' alt='Chart settings with Axes Labels opened and highlighted.' title='' width='298' height='486' />
+
+    We also want to **turn off the Grid.**You can find **Grid** Under**Advanced Options.**Then, also under Advanced options let’s turn on **Show Data Labels**.
+
+    <img src='{{ '/assets/images/Piktochart_031.4.png' | relative_url }}' alt='Chart settings with Advanced Options opened and highlighted.' title='' width='298' height='557' />
+
+    Finally, go to **Fonts**, and change the **Font Family** to **Roboto Condensed**. Change the font **colour** to our **brown**. Then click on **Advanced Settings** under **Fonts** and change the **Data Labels font** size to **24**. Once these changes are made, click anywhere on your infographic to exit.
+
+    <img src='{{ '/assets/images/Piktochart_031.5.png' | relative_url }}' alt='Chart settings with Fonts opened and Data Lables highlighted.' title='' width='297' height='690' />
+33. Our chart is a bit big, so let's resize it to about a fifth of the width of our infographic by pulling at the corners again only (to avoid distortion). It doesn’t display the category names for each bar, so we need to manually create labels for that. To do so, insert a text box using the**Body Text**option. Replace the text with "Condos" and adjust the font to**Roboto Condensed, 24pt**. Line the label up with the top bar. Copy and paste it to create a second label called "Houses", aligning it with the bottom bar.  
+  
+<img src='{{ '/assets/images/Piktochart_032.png' | relative_url }}' alt='The finished Vancouver bar graph, showing condos vs. houses data with blue bars. Next to the bars are data labels which read "33" for Condos and "15" for Houses. ' title='' width='397' height='168' />
+34. Now I can select the category labels and the chart (by drawing a selection box around it) and copy/paste the whole thing, and then adjust the data and colour for my Toronto chart. Line it up with the Vancouver chart, leaving a similar amount of space on either side. Finally, add in a brown ‘vs’ if you like and copy/paste the horizontal line at the end of your block.  
+  
+<img src='{{ '/assets/images/Piktochart_033.png' | relative_url }}' alt='Both charts of the Vancouver vs. Toronto housing data, where Vancouver is represented by a blue bar chart and Toronto is represented by an orange one.' title='' width='489' height='188' />
+35. The next few steps just involve copying/ pasting text and then adjusting fonts and colours, which we’ve already done several times now. We are going to skip ahead here and look at the sources \& notes section for the bottom of this infographic. You are welcome to come back and complete the infographic later – all the necessary text is in the word document we have been using. The final version would look something like this:  
+  
+<img src='{{ '/assets/images/Piktochart_034.jpg' | relative_url }}' alt='Final version of infographic, with sources and notes section at the bottom.' title='' width='579' height='1008' />
+36. To cite the map we used in our design, if we go back to the Wikimedia commons page where we got it and click on “use this file on the web,” we can see the information in the Attribution field to create the reference. To cite the data we used, if you go to the very bottom of the census profile excel file, you see information on how to cite it.  
+  
+Finally, there are some notes to clarify the data. For example, I explain that houses are defined as single\-detached houses, and describe my assumption that these single\-detached houses are not considered condos, so there is no overlap in the categories. Adding references and notes about the data can ensure your infographic is perceived as more trustworthy and accurate. Readers can then also go to the data sources listed to learn more.  
+<img src='{{ '/assets/images/Piktochart_035.png' | relative_url }}' alt='Text for Infographic, with notes and sources section highlighted. ' title='' width='576' height='633' />
+37. Now let's look at a few other features you can use in Piktochart once your infographic is done. Click on**Download**at the top. Under**Download Settings**, you'll see that you can adjust the file format to either PNG or PDF. PNG is fine for now. We can also set the data quality to normal, medium, or high. You can also download each page separately by checking**Download as pages**. This is something useful if you want to use parts of your infographic on social media (e.g., posting one part as an image for a post, but when a user clicks on the post, they're able to say the entire infographic).  
+  
+Unfortunately, Piktochart only allows for two downloads before requiring you to upgrade to their paid version. There is [special pricing available for students and educators](https://piktochart.com/education/#:~:text=However%2C%20if%20you%20want%20to,%2439.99%20per%20user%20per%20year.), should you wish to upgrade. If you want to try it out, select PNG and increase the quality to**medium**and leave the rest at the default settings. Click**Download PNG**. Once it's downloaded, you can see your infographic as an image.  
+  
+<img src='{{ '/assets/images/Piktochart_036.png' | relative_url }}' alt='The download options available through Piktochart.' title='' width='608' height='482' />
+38. Your other option is to publish it on the web through Piktochart. Let’s close the download window and instead click on **Share**at the top. The first option,**Public on the web**, allows anyone with a link to see the infographic. You can only password protect with the PRO version of Piktochart. It also gives you the option to share directly on various social media platforms, or embed the infographic on your website. With this option toggled on, click**Copy Link** at the bottom.  
+  
+Let's give it a try by pasting the link into our browser to see what our infographic looks like. If you click on**Show Presentation**, we can see the infographic presented to us in sections, which is why we created it using pages. I sometimes get questions about how to include infographics in presentations, and this is one great way to do that. Use the arrow keys to progress through the pages and click escape to get out of presentation mode.  
+  
+<img src='{{ '/assets/images/Piktochart_037.1.png' | relative_url }}' alt='The Share your design menu with "Copy Link" highlighted by a red rectangle.' title='' width='568' height='472' />  
+  
+<img src='{{ '/assets/images/Piktochart_037.2.png' | relative_url }}' alt='The publicly-viewable webpage of the sample infographic with "Show Presentation" highlighted by a red rectangle.' title='' width='707' height='145' />
+39. And that’s it! This is just a simple example of what you can create using Piktochart. I encourage you to play around more with this tool, and go through all of its features. Creating infographics with this tool and others is a great way to get a feel for the design process. Good luck with your infographics!
+
+Technique: [Data Visualization](/technique/data-visualization) \| Tools: [Piktochart](/tools/piktochart-0) \| Data Format: [Statistics](/data-format/statistics)**Date Created:** 2019\-06\-03**Updated:** 2025\-11\-12

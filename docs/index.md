@@ -4,6 +4,12 @@ layout: "home"
 description: "This tutorial is an introduction to Piktochart, a popular online tool used to create infographics. This exercise will illustrate some infographic design principles and specific features of Piktochart to create an infographic about comparing housing in Vancouver vs Toronto. To complement this tutorial, you may want to explore the online self-paced course on Infographic Design."
 created_date: 2019-06-03
 permalink: "/"  #! Remove this if not the homepage
+staff:
+ - name: Kelly Schultz
+   link: https://library.utoronto.ca/staff/kelly-schultz
+maintainer:
+ - name: Kelly Schultz
+   link: https://library.utoronto.ca/staff/kelly-schultz
 ---
 
 # Introduction to Infographic Design and Using Piktochart

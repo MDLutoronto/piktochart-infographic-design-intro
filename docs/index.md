@@ -188,5 +188,3 @@ This tutorial is an introduction to Piktochart, a popular online tool used to cr
     <img src='{{ '/assets/images/Piktochart_037.1.png' | relative_url }}' alt='The Share your design menu with "Copy Link" highlighted by a red rectangle.' title='' width='568' height='472' />  
     <img src='{{ '/assets/images/Piktochart_037.2.png' | relative_url }}' alt='The publicly-viewable webpage of the sample infographic with "Show Presentation" highlighted by a red rectangle.' title='' width='707' height='145' />
 39. And that’s it! This is just a simple example of what you can create using Piktochart. I encourage you to play around more with this tool, and go through all of its features. Creating infographics with this tool and others is a great way to get a feel for the design process. Good luck with your infographics!
-
-Technique: [Data Visualization](https://mdl.library.utoronto.ca/technique/data-visualization) | Tools: [Piktochart](https://mdl.library.utoronto.ca/tools/piktochart-0) | Data Format: [Statistics](https://mdl.library.utoronto.ca/data-format/statistics)

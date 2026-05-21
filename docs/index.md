@@ -5,11 +5,11 @@ description: "This tutorial is an introduction to Piktochart, a popular online t
 created_date: 2019-06-03
 permalink: "/"  #! Remove this if not the homepage
 staff:
- - name: Kelly Schultz
-   link: https://library.utoronto.ca/staff/kelly-schultz
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz 
 maintainer:
- - name: Kelly Schultz
-   link: https://library.utoronto.ca/staff/kelly-schultz
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz 
 ---
 
 # Introduction to Infographic Design and Using Piktochart
@@ -192,4 +192,4 @@ This tutorial is an introduction to Piktochart, a popular online tool used to cr
     <img src='{{ '/assets/images/Piktochart_037.2.png' | relative_url }}' alt='The publicly-viewable webpage of the sample infographic with "Show Presentation" highlighted by a red rectangle.' title='' width='707' height='145' />
 39. And that’s it! This is just a simple example of what you can create using Piktochart. I encourage you to play around more with this tool, and go through all of its features. Creating infographics with this tool and others is a great way to get a feel for the design process. Good luck with your infographics!
 
-Technique: [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) | Tools: [Piktochart](https://mdlutoronto.github.io/tutorials-search/?tool=Piktochart) | Data Format: [Statistics](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Statistics)
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Piktochart](https://mdlutoronto.github.io/tutorials-search/?tool=Piktochart) \| **Data Format:** [Statistics](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Statistics)
